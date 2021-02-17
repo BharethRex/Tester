@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript</title>
+  <script src="javascipt.js"></script>
+ <script>
+ function getCube(){ 
+    var number=document.getElementById("number").value;  
+    alert(number*number*number);
+}
+</script> 
+</head>
+<body>
+  <div>
+    <h1 style="
+        color: red;
+    text-align: center"; >WEEEEEE</h1>
+  </div>
+
+
+  <form>
+    <label for="fname">Number:</label>
+    <input type="text" id="number" name="fname"><br><br>
+    <input type="submit" value="Submit" onclick="getCube()">
+  </form>
+
+  <div>
+    <h2 style="
+    background-color: lavender;
+        color:blue;
+    text-align: center"; >WEEEEEE</h2>
+  </div>
+
+
+    <h3> DIV 1: </h3>
+    <div id="DIV1">
+     I'm DIV 1 content
+    </div>
+    <h3> DIV 2: </h3>
+    <div id="DIV2">
+    </div>
+    <script type="text/javascript">
+       var MyDiv1 = document.getElementById('DIV1');
+       var MyDiv2 = document.getElementById('DIV2');
+       MyDiv2.innerHTML = MyDiv1.innerHTML + " + DIV 2 content";
+    </script>
+    
+    
+
+
+
+
+    
+</body>
+</html>
